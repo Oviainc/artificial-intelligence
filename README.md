@@ -22,6 +22,16 @@ This is an early, small repository — we describe it exactly as it stands:
 
 There are no models, notebooks, datasets, or code examples in this repository yet. Anything added here will be documented in this README as it lands, with its purpose, source, and how to run or read it.
 
+## Guides
+
+Five guides gather the field behind our production work, one subject at a time, in plain language:
+
+- [Foundations](https://oviainc.github.io/artificial-intelligence/guides/foundations.html) — models, tokens, and context: what the technology is and is not
+- [Agents & Operations](https://oviainc.github.io/artificial-intelligence/guides/agents-and-operations.html) — agents doing real work, under supervision, with evidence
+- [Context Engineering](https://oviainc.github.io/artificial-intelligence/guides/context-engineering.html) — semantic layers, ontologies, context graphs, and the permissions of the human
+- [Data & Meaning](https://oviainc.github.io/artificial-intelligence/guides/data-and-meaning.html) — bad data, sound as context, and business intelligence that holds up
+- [Virtual Production](https://oviainc.github.io/artificial-intelligence/guides/virtual-production.html) — from volume to intelligence, and the free-tier path onto the stage
+
 ## How this fits our work
 
 - **AI agents** — capable agents rest on a clear understanding of the wider field: what models can and cannot do, where they fail, and how to evaluate them before they reach real work.
