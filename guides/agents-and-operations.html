@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ovia Inc — Artificial Intelligence — Agents & Operations</title>
+<style>body{background:#000;color:#fff;font-family:Georgia,'Times New Roman',serif;margin:0;line-height:1.65}
+.wrap{max-width:760px;margin:0 auto;padding:48px 24px 64px}
+.kicker{font-family:Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:3px;color:#999;text-transform:uppercase}
+h1{font-size:40px;line-height:1.15;margin:14px 0 10px;font-weight:normal}
+.standfirst{font-size:19px;color:#ccc;margin:0 0 28px}
+img.hero{width:100%;height:auto;display:block;margin:0 0 32px}
+h2{font-size:23px;margin:36px 0 10px;font-weight:normal}
+p{font-size:17px;color:#eee;margin:0 0 16px}
+.deeper{border-top:1px solid #333;margin-top:44px;padding-top:24px}
+.deeper h2{margin-top:0}
+.deeper li{margin-bottom:10px;font-size:16px}
+a{color:#fff}
+footer{border-top:1px solid #333;margin-top:48px;padding-top:20px;font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#999}
+footer a{color:#ccc}</style>
+</head>
+<body>
+<div class="wrap">
+<p class="kicker">Ovia Inc — Artificial Intelligence</p>
+<h1>Agents & Operations</h1>
+<p class="standfirst">Agents that complete tasks instead of answering questions — and the supervision, evidence, and boundaries that make agent work safe to run.</p>
+<img class="hero" src="https://oviainc.github.io/ai-services/assets/ovia-inc-ai.jpg" alt="Ovia Inc — AI agents at work">
+<h2>Agents doing real work</h2>
+<p>An agent is a model given tools, a goal, and room to act across several steps. The difference between a chatbot and an agent is the difference between answering a question and completing a task. Real work shows the difference clearly. At the Allen Telescope Array, agents now steer the search from a single plain-language request, planning observations and working the stream as data arrives; a pulsar surfaced live during that work. Nothing about that result came from a bigger prompt. The result came from an arrangement: a clear goal, instruments exposed as tools, and a workflow sturdy enough for the agent to move inside. The pattern repeats everywhere agents succeed. The model supplies judgment at the decision points; the surrounding system supplies reach, memory, and discipline.</p>
+<h2>Freedom at the decision, structure at the execution</h2>
+<p>The strongest operating pattern separates choosing from doing. Cloud platforms now let existing, tested workflows be handed to agents as tools: the agent decides which workflow fits the situation, and the workflow then executes with the rigidity of ordinary software. Freedom at the decision, rigidity at the execution. The reverse arrangement, freedom during execution, is where agents wander, improvise against production systems, and create the incidents that fill post-mortems. Teams designing agent systems should ask of every step: does this step need judgment, or does this step need reliability? Judgment goes to the model. Reliability goes to the workflow. Mixing the two up is the most common design error in the field, and the easiest to avoid once seen clearly.</p>
+<h2>Trust is bought with supervision</h2>
+<p>The market has already voted on autonomy. Across 3,222 enterprise reviews analysed by G2, 77 percent of buyers trust their agent, only 7 percent would grant total autonomy, and 79 percent ask for visibility and control first. Read plainly: trust exists, autonomy does not, and supervision is the feature that closes the gap. Buyers are not afraid of agents; buyers are refusing black boxes. An agent that shows the evidence behind a recommendation, names the tools used, and stops at the boundaries set for the agent will be used daily. An agent that acts silently and explains later will be switched off, however capable the underlying model may be. Supervision is not a brake on the technology. Supervision is the product.</p>
+<h2>The first hour of an outage</h2>
+<p>Operations work shows what supervised agency looks like under pressure. When a service fails, the first hour is mostly a search problem: telemetry, logs, and recent changes must be gathered, compared, and turned into a short list of plausible causes. AI SRE agents now do that searching at machine speed, presenting evidence rather than verdicts, while production approval stays with the engineers. The division of labour is exact. The agent searches everything, instantly, and shows the receipts. The human decides what happens to production. Any team evaluating agents for operations should demand the same split: search can be delegated, evidence must be shown, and the final action remains a human decision with a name attached.</p>
+<h2>Operating principles we keep</h2>
+<p>Four principles run through every deployment our studio touches. First, scope the goal in plain language and keep the scope narrow enough to verify. Second, expose tools deliberately; an agent should reach exactly the systems the task requires and nothing beyond. Third, log everything an agent does in a form a person can replay the next morning. Fourth, set the autonomy boundary before the first run, not after the first surprise: which actions happen automatically, which need approval, and which never happen at all. Agents are not magic, and agents are not a menace. Agents are a new kind of worker inside the system, and the quality of the work follows the quality of the arrangement around them. The guides on context engineering and on data explain the two arrangements that matter most: what the agent gets to see, and whether what the agent sees can be believed.</p>
+<h2>Signs a deployment is ready</h2>
+<p>Readiness for agent work has visible signs. The goal fits in one plain sentence that a new team member could repeat. The tool list is short enough to print, and every tool on the list earns a place by serving the goal. The logs from a trial run read like a story a person can follow, with decisions and evidence visible at each step. The approval boundary is written down where the operator can find the boundary at 2 a.m., not buried in a design document. And a rehearsal has already produced one boring failure, found in practice rather than in production. Deployments missing those signs are not behind schedule; the deployments are unfinished designs hoping the model will compensate. Models compensate for many things. Missing boundaries are not among them.</p>
+<div class="deeper">
+<h2>Go deeper</h2>
+<ul>
+<li><a href="https://oviainc.github.io/ai-services/articles/agentic-observatory-seti-search/">The Observatory That Takes Instructions: Agentic AI Joins the Search</a> — context engineering at telescope scale</li>
+<li><a href="https://oviainc.github.io/ai-services/articles/trusted-agents-short-leash/">Trusted, Used Daily — and Kept on a Short Leash</a> — what 3,222 enterprise reviews say about trust and autonomy</li>
+<li><a href="https://oviainc.github.io/ai-services/articles/first-hour-of-an-outage-is-search/">The First Hour of an Outage Is a Search Problem</a> — AI SRE agents that search, show evidence, and leave approval with engineers</li>
+<li><a href="https://oviainc.github.io/ai-services/articles/let-the-agent-choose/">Let the Agent Choose, Let the Workflow Execute</a> — existing workflows become tools for agents, freedom at the decision and rigidity at the execution</li>
+</ul>
+</div>
+<footer><a href="../index.html">All guides</a> · <a href="https://oviainc.github.io/ai-services/">Ovia Inc — AI Services</a> · <a href="https://oviainc.github.io/ai-services/articles/">Articles</a></footer>
+</div>
+</body>
+</html>
